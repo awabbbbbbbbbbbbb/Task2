@@ -1,0 +1,108 @@
+.parent {
+    display: grid;
+    height: 300vh;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(20, 1fr);
+    gap: 10px;
+    background-color: white;
+}
+.parent > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid; color: black;
+font-size: 20px;
+
+}
+#div1 {
+    background-color: white;
+    grid-column: 1/13;
+    grid-row: 1/5;
+}
+#div2 {
+    background-color: red;
+    grid-column: 1/6;
+    grid-row: 5/9;
+   
+}
+#div3 {
+    background-color: pink;
+    grid-column: 6/13;
+    grid-row: 5/9;
+}
+#div4 {
+    background-color: palevioletred;
+    grid-column: 1/6;
+    grid-row: 9/12;
+}
+#div5 {
+    background-color: violet;
+    grid-column:6/13;
+    grid-row: 9/12;
+    
+}
+#div6 {
+    background-color: purple;
+    grid-column: 1/6;
+    grid-row: 12/16;
+}
+#div7 {
+    background-color: plum;
+    grid-column: 6/13;
+    grid-row: 12/16;
+}
+#div8 {
+    background-color: fuchsia;
+    grid-column: 1/6;
+    grid-row: 16/21;
+}
+#div9 {
+    background-color: hotpink;
+    grid-column: 6/13;
+    grid-row: 16/21;
+}
+#div10 {
+    background-color: aliceblue;
+    grid-column: 6/13;
+    grid-row: 16/21;
+}
+#logo1 {
+    height: 100%;
+    width: 100%;
+}
+#logo2 {
+    height: 100%;
+    width: 100%;
+}
+#logo3 {
+    height: 50%;
+    width: 50%;
+}
+#logo4 {
+    height: 100%;
+    width: 100%;
+}
+#logo5 {
+    height: 100%;
+    width: 100%;
+}
+#logo6 {
+    height: 100%;
+    width: 100%;
+}
+#logo7 {
+    height: 100%;
+    width: 100%;
+}
+#logo8 {
+    height: 100%;
+    width: 100%;
+}
+#logo9 {
+    height: 100%;
+    width: 100%;
+}
+#logo10 {
+    height: 100%;
+    width: 100%;
+}
